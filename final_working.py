@@ -648,7 +648,7 @@ st.markdown("""
 
 st.markdown("""
 <style>
-[data-testid="stToolbar"] {
+#root > div:nth-child(1) > div.withScreencast > div > div > div > header > div {
     visibility: hidden;
 }
 </style>
