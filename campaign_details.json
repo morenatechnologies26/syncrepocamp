@@ -1,0 +1,263 @@
+{
+    "GRS DEFENCE": {
+        "phone": "8775060274",
+        "hours": "8am - 8pm EST Monday-Friday",
+        "bad_states": "AK, AR, CA, DE, HI, ID, IA, KS, LA, ME, MD, \nMN, MT, NE, NV, NC, ND, OR, RI, SD, SC, TN, UT, VT, WV, WY\n",
+        "good_states": "NATIONWIDE",
+        "notes": "--",
+        "csv": "GRS DEFENCE SHEET.csv",
+        "link": ""
+    },
+    "GRS REVERSE": {
+        "phone": "4848044448",
+        "hours": "Mon-Fri 6am-5pm PST",
+        "bad_states": "AK, GA, HI, MA, ME, NY, RI, VT, VA, MO, DC",
+        "good_states": "--",
+        "notes": "* Call Buffer: 120 seconds\n* Age 62+ \n* Home Value 120K+\n* $120K minimum home value\n*  LTV less than 40%\n* Must not be investment Property\n",
+        "csv": "",
+        "link": "https://www.bankrate.com/home-equity/home-equity-calculator/"
+    },
+    "SMS REV-UNDER-6K+": {
+        "phone": "2543293489",
+        "hours": "9am to 7.30pm EST",
+        "bad_states": "--",
+        "good_states": "NATIONWIDE",
+        "notes": "* Affordability - 220$",
+        "csv": "",
+        "link": "https://infutive.in/apiform/Sub10Debt-RevShare/index.php"
+    },
+    "SMS REV OVER-10K+": {
+        "phone": "2544427086",
+        "hours": "9am to 7.30pm EST",
+        "bad_states": "--",
+        "good_states": "NATIONWIDE",
+        "notes": "* Affordability - 250-300 Dollar",
+        "csv": "",
+        "link": "https://infutive.in/apiform/Debt-RevShare/"
+    },
+    "GRS Tax 10k": {
+        "phone": "8776840537",
+        "hours": "Pause",
+        "bad_states": "--",
+        "good_states": "--",
+        "notes": "* Call Buffer - 120 Seconds",
+        "csv": "GRS TAX 10k.csv",
+        "link": ""
+    },
+    "FML Debts $10K+  ": {
+        "phone": "8002917062",
+        "hours": "11am \u2013 6pm EST",
+        "bad_states": "--",
+        "good_states": "NATIONWIDE",
+        "notes": "* Call Buffer: 120 seconds\n\n* CUSTOMERS MUST HAVE MINIMUM 10K OUT OF THE 12K MINIMUM DEBT AMOUNT\n\n* MONTHLY INCOME SHOULD BE AROUND -2K$ \n\n* AFFORDBAILITY WILL BE 2% OF TOTAL DEBTS OF THE CX\n\n* NOTE: DON\u2019T TRY THOSE CALLS IN WHICH CUX AGE IS OVER 80+\n",
+        "csv": "",
+        "link": ""
+    },
+    "SMS Debts-10K$": {
+        "phone": "2545053422",
+        "hours": "\u00a09am to 7.30pm\u00a0EST",
+        "bad_states": "CO, ND, OR, VT, WV, WY,ID",
+        "good_states": "--",
+        "notes": "* Call Buffer : 120 sec.\n* 10K UNSECURED DEBT COMBINATION AS WELL DEPEND UPON THE BUYER\n",
+        "csv": "",
+        "link": "https://infutive.in/apiform/SMS-Debts/"
+    },
+    "NBA Debts-10K$": {
+        "phone": "5618612300",
+        "hours": "Mon-Fri 8am-9pm EST",
+        "bad_states": "--",
+        "good_states": "NATIONWIDE",
+        "notes": "* Call Buffer:120 sec.\n* 10K UNSECURED DEBT COMBINATION AS WELL DEPEND UPON THE BUYER\n\n",
+        "csv": "",
+        "link": ""
+    },
+    "YSL\u00a0Debts-15K": {
+        "phone": "8445970267",
+        "hours": "9am\u00a0-\u00a08:30pm\u00a0Monday\u00a0-Thursday;9am\u00a0-\u00a05:30pm\u00a0Fri,\u00a0and\u00a010:00am\u00a0-\u00a02pm\u00a0on\u00a0Saturday",
+        "bad_states": "* OR\n",
+        "good_states": "* NATIONWIDE",
+        "notes": "* Call Buffer:120 sec.\n\n* Credit Card and Personal Loan needed atleast 6k-7k. \n\n* no\u00a0cross\u00a0sale\u00a0from\u00a0dmsg\n\n* Criteria\u00a018K-20K\u00a0debts\u00a0unsecured afford\u00a0$300-350$ dollars STRICTLY",
+        "csv": "",
+        "link": ""
+    },
+    "ND Debt Over-10K+": {
+        "phone": "9255230953",
+        "hours": "Monday to Friday 7:00 a.m. to 4:00 p.m. pacific time. ",
+        "bad_states": "NY, RI",
+        "good_states": "--",
+        "notes": "* Time:\u00a0120\u00a0second\u00a0buffer\n\n* For over 12k in Credit Card: CUX SHOULD BE CURRENT WITH PAYMENT AND SPENDING OVER 250$ ON CC DEBT \n\n",
+        "csv": "",
+        "link": ""
+    },
+    "ND Debt Under": {
+        "phone": "9255230952",
+        "hours": "Monday to Friday 7:00 a.m. to 4:00 p.m. pacific time. ",
+        "bad_states": "NY, RI",
+        "good_states": "--",
+        "notes": "* Time:\u00a0120\u00a0second\u00a0buffer\n\n* For over 7k in Credit Card:CUX SHOULD BE CURRENT WITH PAYMENT AND SPENDING OVER 150-200$ ON CC DEBT \n",
+        "csv": "",
+        "link": ""
+    },
+    "RAK DEBT": {
+        "phone": "8668526468",
+        "hours": "10 AM -8 PM EST Mon-Fri",
+        "bad_states": "CO, OR, WV, VT\n",
+        "good_states": "--",
+        "notes": "* Must have 2500+ per month income and/or 250 dollars per month payment affordability\n",
+        "csv": "",
+        "link": ""
+    },
+    "MAC Debts $10k": {
+        "phone": "8669190821",
+        "hours": "Monday-Friday 9:00 AM to 5:30 PM PST",
+        "bad_states": "Alaska, California, Hawaii, Idaho, Kansas, Maine, Oregon, Washington",
+        "good_states": " Nationwide\n",
+        "notes": "* CallBuffer: 120 Sec\n* Live CAP is 3 calls a day\n* Minimum Debt Amount: $15000+\n* Valid Source of Income\n* Should be US resident\n* Above Age 18+\n* Seeking Debt Relief Assistance\n* Correct Phone Number\n* MUST have $15k or more in Unsecured Debt\n* MUST be able to afford $250 in payments\n* MUST not be Enrolled or about to sign up with other companies\n* NO Student Loans\n* NO Time Share Loans\n* NO Military Cards such as (Military Star)\n* No Mortgages or HELOC/s\n* Auto Loans ONLY When vehicle has already been repossessed\n* Medical Debt are accepted but with over $5,000 in CC Debt\n* Payday Loans are accepted but with over $5,000 in CC Debt\n* Personal Loans are accepted but with over $5,000 in CC Debt\n\n* Form to Filled before Transfer:\nDebt Relief Application",
+        "csv": "",
+        "link": "https://ultradebtrelief.com/mac-debt"
+    },
+    "ONI Debts 10K": {
+        "phone": "9493901400",
+        "hours": "Monday- Friday 6 am pst to 4:30pm PST",
+        "bad_states": "\n",
+        "good_states": "CA, DC,\u00a0FL,\u00a0GA,\u00a0IL\u00a0,IN,\u00a0MA, MD,\u00a0MI,\u00a0MO, MS,\u00a0NJ,\u00a0NV,\u00a0NM,\u00a0NY,\u00a0OH,\u00a0OK,\u00a0PA,\u00a0SC,\u00a0TX,\u00a0VA,\u00a0UT\n",
+        "notes": "* Call buffer 120 Sec..\n\n* 6kcc must be there then rest Medical and other type of unsecured debts.\n\n\n\n",
+        "csv": "",
+        "link": ""
+    },
+    "SMS SLC": {
+        "phone": "4486782453",
+        "hours": "Mon-Fri 8am - 5pm PST",
+        "bad_states": "CA, MN, WI, OR, WA, IL\n",
+        "good_states": "--",
+        "notes": "* DO NOT SEND CALLS HERE UNTIL I SAY\n\n* Call Buffer: 120 sec buffer\n\n* $8k+ in Federal Student Loan Debt\n\n* But be employed, No Income from benefits\n\n*  No \"Still in school\"\n\n* No daily cap\n",
+        "csv": "",
+        "link": ""
+    },
+    "SMS TAX": {
+        "phone": "2542845822",
+        "hours": "Mon-Fri 11.30am - 8.00pm\u00a0EST",
+        "bad_states": "--\n",
+        "good_states": "NATIONWIDE\n",
+        "notes": "* Call Buffer: 120 sec buffer\n\n* DO NOT CROSS SALE WITH GRS AND AAA TAX\n\n* INCOME SHOULD BE MORE THAN 1800+ WITH EMPLOYMENT (FULL & PART TIME ) SELF EMPLOYMENT  \n",
+        "csv": "",
+        "link": ""
+    },
+    "PGA TAX 10K": {
+        "phone": "6073880261",
+        "hours": "Mon-Fri 8:00\u00a0am\u00a0-\u00a03pm\u00a0PST",
+        "bad_states": " TX, WA,NY,MA",
+        "good_states": "NATIONWIDE",
+        "notes": "* Call Buffer: 200 sec buffer\n\n* Inc - 3000$\n\n* No SSI Income\n",
+        "csv": "",
+        "link": ""
+    },
+    "GRS TAX 10K": {
+        "phone": "8776840537",
+        "hours": "--",
+        "bad_states": "--",
+        "good_states": "--",
+        "notes": "* Call Buffer: 120 sec buffer\n\n",
+        "csv": "",
+        "link": ""
+    },
+    "PGA TAX Yellow $10K": {
+        "phone": "3214352851",
+        "hours": "M-F 8AM - 6PM MST",
+        "bad_states": "--",
+        "good_states": "--",
+        "notes": "* Call Buffer: 120 sec buffer\n\n* Min $10,000 in Federal Back Taxes\n\n* Min $2,500/month income\n",
+        "csv": "",
+        "link": ""
+    },
+    "IDP\u00a0TAX\u00a0Debt\u00a0": {
+        "phone": "8776114123",
+        "hours": "\u00a07:30am\u00a0-\u00a04:00pm\u00a0PST",
+        "bad_states": "--",
+        "good_states": "NATIONWIDE",
+        "notes": "* Call\u00a0Buffer:\u00a0120\u00a0seconds\n",
+        "csv": "",
+        "link": ""
+    },
+    "GRS SSDI": {
+        "phone": "4842545043",
+        "hours": "M-Th 9am to 5pm EST (No Friday)",
+        "bad_states": "--",
+        "good_states": "--",
+        "notes": "--",
+        "csv": "GRS SSID.csv",
+        "link": "--"
+    },
+    "\u00a0PGA\u00a0SSDI": {
+        "phone": "8333087273",
+        "hours": "Monday-Friday 05:00am-01:00pm PST",
+        "bad_states": "--",
+        "good_states": "NATIONWIDE",
+        "notes": "* Call Buffer : 150\u00a0sec\n* Age target 53-63\n* Are you\u00a0currently\u00a0treating\u00a0with\u00a0a\u00a0Doctor or taking any medications?  YES.\n* Do you expect to be out of the work for next 12 months bcq of your health Conditions? YES\n* Currently\u00a0NOT\u00a0receiving\u00a0Social\u00a0Security\u00a0Disability\u00a0benefits? NO\n* Have\u00a0received\u00a0a\u00a0paycheck\u00a0from\u00a0an\u00a0Employer\u00a0for\u00a05\u00a0of\u00a0the\u00a0last\u00a010\u00a0years\u00a0and\u00a0paid\u00a0taxes\u00a0into\u00a0Social\u00a0Security? YES\n* Not\u00a0currently\u00a0working\u00a0more\u00a0than\u00a020\u00a0hours\u00a0per\u00a0week? NO.\n* Doctor\u00a0will\u00a0state\u00a0that\u00a0they\u00a0can\u00a0no\u00a0longer\u00a0work\u00a0Full\u00a0Time\n\n* You are not working\u00a0with\u00a0an\u00a0Attorney\u00a0or\u00a0an\u00a0Advocate.",
+        "csv": "",
+        "link": ""
+    },
+    "SPS FE:(NO CROSS SALE WITH LNG & TLF)": {
+        "phone": "8333639944",
+        "hours": "Mon-Fri 9:30 AM - 7 PM EST / Lunch 2 - 3 PM EST",
+        "bad_states": "NY",
+        "good_states": "--",
+        "notes": "* BUFFER TIME - 180SECONDS\n* CC-2\n",
+        "csv": "",
+        "link": ""
+    },
+    "LNG\u00a0FE": {
+        "phone": "8335457441",
+        "hours": "10am-7pm Est Mon-Fri",
+        "bad_states": "HI, MA, MT, NH, ND, NY, RI, VT, CA\n",
+        "good_states": "--\n",
+        "notes": "* BUFFER TIME-180 SECONDS\n* Age: 50-79\n* Must\u00a0be\u00a0able\u00a0to\u00a0afford\u00a070\u00a0Monthly\u00a0Premium\u00a0for\u00a075\u00a0but\u00a0for\u00a055-60\u00a0Yrs 30-40$\u00a0only",
+        "csv": "",
+        "link": "https://infutive.in/apiform/lead-form-new/"
+    },
+    "TLF\u00a0FE": {
+        "phone": "8885355275",
+        "hours": "MON-FRI\u00a010am-2pm\u00a0EST\u00a0and\u00a03pm-7pm\u00a0EST / (lunch\u00a0break\u00a0between\u00a02\u00a0and\u00a03\u00a0EST)",
+        "bad_states": "--\n",
+        "good_states": "AK,\u00a0AL,\u00a0AR,\u00a0AZ,\u00a0CO,\u00a0CT,\u00a0DE,\u00a0FL,\u00a0GA,\u00a0IA,\u00a0ID,\u00a0IL,\u00a0IN,\u00a0KS,\u00a0KY,\u00a0LA, MD, ME, MI, MN, MO, MS, NC, NE, NJ, NM, NV, OH, OK, OR, PA,SC, TN,  \nTX,\u00a0UT,\u00a0VA,\u00a0WA,\u00a0WI,\u00a0WV,\u00a0WY\n",
+        "notes": "* Call\u00a0Buffer:\u00a0200\u00a0Seconds\n* MUST have 10 Minutes to listen to a Quote\n* MUST\u00a0be\u00a0between\u00a050\u00a0&\u00a083\u00a0years\u00a0old.",
+        "csv": "",
+        "link": ""
+    },
+    "NBA TAX": {
+        "phone": "5618980894",
+        "hours": "Monday\u2013Thursday: 9:30 AM \u2013 6:30 PM EST, Friday: 9:30 AM \u2013 3:00 PM EST",
+        "bad_states": "--\n",
+        "good_states": "NATIONWIDE ",
+        "notes": "* $10k+ in IRS Tax\n* Must be Employed, Not on Benefits\n* Must have received communication from IRS in last 2 years\n* Not speaking to IRS or a Lawyer already ",
+        "csv": "",
+        "link": ""
+    },
+    " PGA DEBT BLUE -3K$": {
+        "phone": "6072479005",
+        "hours": "Monday-Friday 7:30AM - 4PM PST",
+        "bad_states": "Georgia, North Carolina, Oregon, Arkansas, Connecticut, Minnesota, Washington  DC, Maryland, Wisconsin",
+        "good_states": "NATIONWIDE",
+        "notes": "* Call BUFFER :  300 Seconds\n\n* ## !! IMPORTANT !! *\n           \n* - MIN 3K Credit Card DEBTS.\n           \n* - Customer must be willing to get Credit Pulled\n           \n* - Customer must be willing to resolve hardship\n           \n* Hard Stop at 5\n",
+        "csv": "",
+        "link": ""
+    },
+    "RAK Debts $20k ": {
+        "phone": "3215033479",
+        "hours": "8am - 4pm PST",
+        "bad_states": "IL, NJ, SC, CO, OR, WV, DE, IA, MN, MI, TN, MT",
+        "good_states": "",
+        "notes": "* CallBuffer: 150 Sec\n*   MUST have $20k or more in Unsecured Debt\n*   MUST be able to afford $250 in payments\n*   MUST not be Enrolled or about to sign up with other companies\n*   NO Student Loans\n*   NO Time Share Loans\n*   NO Military Cards such as (Military Star)\n*   No Mortgages or HELOC/s\n*   Auto Loans ONLY When vehicle has already been repossessed\n*   Medical Debt are accepted but with over $7,000 in CC Debt\n*   Payday Loans are accepted but with over $7,000 in CC Debt\n*   Personal Loans  are accepted but with over $7,000 in CC Debt\n*  5 Hard Pause at 5",
+        "csv": "",
+        "link": ""
+    },
+    "FML TAX": {
+        "phone": "8557237011",
+        "hours": "Monday-Thursday 9:30 AM-6:30 PM EST, Friday 9:00 AM-3:00 PM EST",
+        "bad_states": "",
+        "good_states": "NATIONWIDE",
+        "notes": "## \u203c\ufe0fIMPORTANT, Mandatory Script to Read BEFORE TRANSFER\u203c\ufe0f\n\n\"Before I transfer you, I would like to let you know that if our tax specialist determines they may be able to assist with your tax matter, this is a fee-based service. Any fees and services will be explained before you make a decision. Is that okay?\"\n------------------------------------\n\"I see you are in the state of [STATE]. Is that correct?\"\n------------------------------------\n\"Excellent\".\n------------------------------------\n\"Before I continue, I want to clarify something important.\nThis is NOT A LOAN. It is important you understand this.\nNo money is being lend to you, and you are not applying for a loan.\nThe purpose of the consultation is for the specialist to review your tax situation and determine whether there may be tax resolution options, payment arrangements, or other programs available based on your circumstances.\"\n------------------------------------\n* Call Buffer: 120 Seconds \n* $10k+ in IRS Tax & State Tax.\n* Must be Employed, Not on Benefits\n* Must have received communication from IRS in last 2 years\n* Must Not be in an active bankruptcy proceeding\n* Not speaking to IRS or a Lawyer already \n* Do you currently have an active checking account?\n* Are you looking for assistance with resolving your tax debt?\n",
+        "csv": "",
+        "link": ""
+    }
+}

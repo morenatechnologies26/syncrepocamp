@@ -1,0 +1,355 @@
+# # =========================================================
+# # LIVE CLOCKS
+# # =========================================================
+# def show_clocks():
+
+#     zones = {
+
+#         "EST": "US/Eastern",
+#         "CST": "US/Central",
+#         "MST": "US/Mountain",
+#         "PST": "US/Pacific",
+#         "IST": "Asia/Kolkata"
+#     }
+
+#     st.markdown("""
+#     <style>
+
+#     .clock-container {
+#         padding: 15px;
+#         border-radius: 15px;
+#         background-color: #0d0d0d;
+#         text-align: center;
+#         border: 1px solid #333333;
+#     }
+
+#     .clock-time {
+#         font-size: 30px;
+#         font-weight: bold;
+#         color: white;
+#         margin-bottom: 8px;
+#     }
+
+#     .clock-zone {
+#         font-size: 18px;
+#         color: #cccccc;
+        
+#     }
+
+#     </style>
+#     """, unsafe_allow_html=True)
+
+#     cols = st.columns(5)
+
+#     for col, (zone_name, timezone) in zip(cols, zones.items()):
+
+#         tz = pytz.timezone(timezone)
+
+#         current_time = datetime.now(tz)
+
+#         formatted_time = current_time.strftime(
+#             "%I:%M:%S %p"
+#         )
+
+#         with col:
+
+#             st.markdown(
+#                 f"""
+#                 <div class='clock-container'>
+#                     <div class='clock-time'>{formatted_time}</div>
+#                     <div class='clock-zone'>{zone_name}</div>
+#                 </div>
+#                 """,
+#                 unsafe_allow_html=True
+#             )
+
+
+
+
+
+================================================================================================================================================================================================
+
+
+
+
+
+# =========================================================
+# LIVE ANIMATED CLOCKS
+# =========================================================
+def show_clocks():
+
+    clock_html = """
+    <style>
+
+    .clock-wrapper{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:14px;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.clock-card{
+    background:#0d0d0d;
+    border-radius:14px;
+    padding:16px 10px;
+    text-align:center;
+    border:1px solid #2d2d2d;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.35);
+}
+
+.clock-time{
+    font-size:30px;
+    font-weight:700;
+    color:white;
+    line-height:1.1;
+    font-family:monospace;
+    white-space:nowrap;
+}
+
+.clock-zone{
+    font-size:16px;
+    color:#bdbdbd;
+    margin-top:8px;
+    font-weight:500;
+    letter-spacing:1px;
+}
+
+    </style>
+
+    <div class="clock-wrapper">
+
+        <div class="clock-card">
+            <div class="clock-time" id="est"></div>
+            <div class="clock-zone">EST</div>
+        </div>
+
+        <div class="clock-card">
+            <div class="clock-time" id="cst"></div>
+            <div class="clock-zone">CST</div>
+        </div>
+
+        <div class="clock-card">
+            <div class="clock-time" id="mst"></div>
+            <div class="clock-zone">MST</div>
+        </div>
+
+        <div class="clock-card">
+            <div class="clock-time" id="pst"></div>
+            <div class="clock-zone">PST</div>
+        </div>
+
+        <div class="clock-card">
+            <div class="clock-time" id="ist"></div>
+            <div class="clock-zone">IST</div>
+        </div>
+
+    </div>
+
+    <script>
+
+    function updateClocks(){
+
+        const options = {
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: true
+        };
+
+        document.getElementById('est').innerHTML =
+            new Intl.DateTimeFormat('en-US', {
+                ...options,
+                timeZone:'America/New_York'
+            }).format(new Date());
+
+        document.getElementById('cst').innerHTML =
+            new Intl.DateTimeFormat('en-US', {
+                ...options,
+                timeZone:'America/Chicago'
+            }).format(new Date());
+
+        document.getElementById('mst').innerHTML =
+            new Intl.DateTimeFormat('en-US', {
+                ...options,
+                timeZone:'America/Denver'
+            }).format(new Date());
+
+        document.getElementById('pst').innerHTML =
+            new Intl.DateTimeFormat('en-US', {
+                ...options,
+                timeZone:'America/Los_Angeles'
+            }).format(new Date());
+
+        document.getElementById('ist').innerHTML =
+            new Intl.DateTimeFormat('en-US', {
+                ...options,
+                timeZone:'Asia/Kolkata'
+            }).format(new Date());
+    }
+
+    updateClocks();
+
+    setInterval(updateClocks, 1000);
+
+    </script>
+    """
+
+    st.components.v1.html(
+        clock_html,
+        height=180
+    )
+
+
+
+
+
+=================================================================================================================================
+
+
+
+
+
+
+# =========================================================
+# LIVE ANIMATED CLOCKS
+# =========================================================
+def show_clocks():
+
+    clock_html = """
+    <style>
+
+    .clock-wrapper{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap:10px;
+    padding-right:10px;
+    box-sizing:border-box;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+    .clock-container{
+        padding:15px 8px;
+        border-radius:15px;
+        background-color:#0d0d0d;
+        text-align:center;
+        border:1px solid #333333;
+    }
+
+    .clock-time{
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+    margin-bottom:8px;
+    font-family:monospace;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+    .clock-zone{
+        font-size:18px;
+        color:#cccccc;
+    }
+
+    </style>
+
+    <div class="clock-wrapper">
+
+        <div class="clock-container">
+            <div class="clock-time" id="est"></div>
+            <div class="clock-zone">EST</div>
+        </div>
+
+        <div class="clock-container">
+            <div class="clock-time" id="cst"></div>
+            <div class="clock-zone">CST</div>
+        </div>
+
+        <div class="clock-container">
+            <div class="clock-time" id="mst"></div>
+            <div class="clock-zone">MST</div>
+        </div>
+
+        <div class="clock-container">
+            <div class="clock-time" id="pst"></div>
+            <div class="clock-zone">PST</div>
+        </div>
+
+        <div class="clock-container">
+            <div class="clock-time" id="ist"></div>
+            <div class="clock-zone">IST</div>
+        </div>
+
+    </div>
+
+    <script>
+
+    function updateClocks(){
+
+        const options = {
+            hour:'2-digit',
+            minute:'2-digit',
+            second:'2-digit',
+            hour12:true
+        };
+
+        document.getElementById('est').innerHTML =
+            new Intl.DateTimeFormat(
+                'en-US',
+                {
+                    ...options,
+                    timeZone:'America/New_York'
+                }
+            ).format(new Date());
+
+        document.getElementById('cst').innerHTML =
+            new Intl.DateTimeFormat(
+                'en-US',
+                {
+                    ...options,
+                    timeZone:'America/Chicago'
+                }
+            ).format(new Date());
+
+        document.getElementById('mst').innerHTML =
+            new Intl.DateTimeFormat(
+                'en-US',
+                {
+                    ...options,
+                    timeZone:'America/Denver'
+                }
+            ).format(new Date());
+
+        document.getElementById('pst').innerHTML =
+            new Intl.DateTimeFormat(
+                'en-US',
+                {
+                    ...options,
+                    timeZone:'America/Los_Angeles'
+                }
+            ).format(new Date());
+
+        document.getElementById('ist').innerHTML =
+            new Intl.DateTimeFormat(
+                'en-US',
+                {
+                    ...options,
+                    timeZone:'Asia/Kolkata'
+                }
+            ).format(new Date());
+    }
+
+    updateClocks();
+
+    setInterval(updateClocks, 1000);
+
+    </script>
+    """
+
+    components.html(
+        clock_html,
+        height=170
+    )
