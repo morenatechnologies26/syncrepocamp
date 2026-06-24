@@ -639,7 +639,7 @@ st.markdown("""
 
 st.markdown("""
 <style>
-#root > div:nth-child(1) > div.withScreencast > div > div > section > div.st-emotion-cache-1ybqi87.eelgd2m2 > div.st-emotion-cache-1r1cntt.eelgd2m1 > div > div > div > div > div > label:nth-child(1) > div.st-d3.st-c2.st-bc.st-df.st-ay.st-az.st-b0.st-b1.st-b2.st-dg.st-dh > div > p{
+#root > div:nth-child(1) > div.withScreencast > div > div > section > div.st-emotion-cache-1ybqi87.eelgd2m2 > div.st-emotion-cache-1r1cntt.eelgd2m1 > div > div > div > div > div{
     font-size: 15px !important;
     font-weight: bold;
 }
