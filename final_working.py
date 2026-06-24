@@ -659,6 +659,11 @@ hide_streamlit_style = """
 #root > div:nth-child(1) > div.withScreencast > div > div > div > header > div > div > div.st-emotion-cache-scp8yw.e1yxiy6j6 > div > div:nth-child(3) > button{
     visibility: hidden;
 }
+
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > header > div > div > div.st-emotion-cache-scp8yw.e1yxiy6j6 > div > div:nth-child(4){
+    visibility: hidden;
+}
 </style>
 """
 
