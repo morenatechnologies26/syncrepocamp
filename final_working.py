@@ -639,9 +639,8 @@ st.markdown("""
 
 st.markdown("""
 <style>
-#root > div:nth-child(1) > div.withScreencast > div > div > section > div.st-emotion-cache-1ybqi87.eelgd2m2 > div.st-emotion-cache-1r1cntt.eelgd2m1 > div > div > div > div > div{
-    font-size: 15px !important;
-    font-weight: bold;
+#root > div:nth-child(1) > div.withScreencast > div > div > div > header > div{
+    visiblity : hidden !important;
 }
 </style>
 """, unsafe_allow_html=True)
