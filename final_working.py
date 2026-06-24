@@ -646,21 +646,21 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-hide_streamlit_style = """
-<style>
-header[data-testid="stHeader"] {
-    display: none;
-}
+# hide_streamlit_style = """
+# <style>
+# header[data-testid="stHeader"] {
+#     display: none;
+# }
 
-#MainMenu {
-    visibility: hidden;
-}
+# #MainMenu {
+#     visibility: hidden;
+# }
 
-footer {
-    visibility: hidden;
-}
-</style>
-"""
+# footer {
+#     visibility: hidden;
+# }
+# </style>
+# """
 
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
