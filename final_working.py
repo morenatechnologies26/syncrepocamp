@@ -648,7 +648,7 @@ st.markdown("""
 
 st.markdown("""
 <style>
-#root > div:nth-child(1) > div.withScreencast > div > div > div > header > div > div {
+#root > div:nth-child(1) > div.withScreencast > div > div > div > header > div > div > div.st-emotion-cache-scp8yw.e1yxiy6j6 > div > div:nth-child(1) {
     visibility: hidden;
 }
 </style>
