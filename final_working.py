@@ -646,13 +646,23 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.markdown("""
+hide_streamlit_style = """
 <style>
-#root > div:nth-child(1) > div.withScreencast > div > div > div > header > div > div > div.st-emotion-cache-scp8yw.e1yxiy6j6 > div > div:nth-child(1) {
+header[data-testid="stHeader"] {
+    display: none;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
     visibility: hidden;
 }
 </style>
-""", unsafe_allow_html=True)
+"""
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # =========================================================
 # USER SIDEBAR RADIO BUTTON
