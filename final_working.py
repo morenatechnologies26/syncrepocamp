@@ -646,23 +646,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-hide_streamlit_style = """
+st.markdown("""
 <style>
-header[data-testid="stHeader"] {
-    display: none;
-}
-
-#MainMenu {
-    visibility: hidden;
-}
-
-footer {
+[data-testid="stToolbar"] {
     visibility: hidden;
 }
 </style>
-"""
-
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 # =========================================================
 # USER SIDEBAR RADIO BUTTON
