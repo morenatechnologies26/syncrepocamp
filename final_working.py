@@ -646,21 +646,21 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# hide_streamlit_style = """
-# <style>
-# header[data-testid="stHeader"] {
-#     display: none;
-# }
+hide_streamlit_style = """
+<style>
+#root > div:nth-child(1) > div.withScreencast > div > div > div > header > div > div > div.st-emotion-cache-scp8yw.e1yxiy6j6 > div > div:nth-child(1) > button {
+    display: none;
+}
 
-# #MainMenu {
-#     visibility: hidden;
-# }
+#root > div:nth-child(1) > div.withScreencast > div > div > div > header > div > div > div.st-emotion-cache-scp8yw.e1yxiy6j6 > div > div:nth-child(2) > button{
+    visibility: hidden;
+}
 
-# footer {
-#     visibility: hidden;
-# }
-# </style>
-# """
+#root > div:nth-child(1) > div.withScreencast > div > div > div > header > div > div > div.st-emotion-cache-scp8yw.e1yxiy6j6 > div > div:nth-child(3) > button{
+    visibility: hidden;
+}
+</style>
+"""
 
 # st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
